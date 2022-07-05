@@ -8,8 +8,9 @@ h1 {
 .ta {
   color: #ffa500;
 }
-section {
+.flexiable-container {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -37,4 +38,26 @@ section {
 }
 .extra-padding {
   margin-right: 10px;
+}
+.orange {
+  color: #ffa500;
+}
+.experiences-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.exprience-item {
+  width: 80%;
+  margin: 0 50px 0 50px;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+#baby-web-developer {
+  border-left: 6px solid blue;
+}
+#full-stack-develpoer {
+  border-left: 6px solid orangered;
+}
+footer p {
+  text-align: center;
 }
